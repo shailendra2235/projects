@@ -1,0 +1,26 @@
+-----------------------------Installation------------------------!
+*as i haven't published the extension in the web store, it can only be installed manually through your local directory.*
+
+steps:
+step-1: 
+download the whole folder named "links saver". it consists of total 5 files
+the files are:
+- 0.html, 
+- 0.css, 
+- 0.js, 
+- icon.png, 
+- manifest.json
+
+*be sure to check that these file exist in the folder you downloaded*
+
+step-2:
+open your chrome browser and go to "chrome://extensions/".
+this will show you all the extensions installed in your browser.
+
+step-3:
+now drag and drop the "links saver" folder in the extensions window.
+and the installation is done!
+it can be accessed through the puzzle type icon, besides your profile icon, along with the other extensions.
+you can pin it for a smooth experience(?!).
+
+

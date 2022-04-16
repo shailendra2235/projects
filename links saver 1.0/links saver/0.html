@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="0.css">
+    <!-- <script src="https://kit.fontawesome.com/288f2aa080.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <input type="text" id="input-el" placeholder="paste the link that you want to save">
+
+    <button id="input-button" title="Click to save your input">save input</button>
+    <button id="tab-button" title="Click to save your current tab's address">save tab</button>
+    <button id="delete-button" title="Double click to delete all saved links">delete all</button>
+    <button id="help-button" title="Help">help</button>
+    <p id="help-text" class="hide">
+        <span style="color: rgb(46, 221, 207);">save-input</span> : click to save the content in the input field as a link. <br>
+        <span style="color: rgb(46, 221, 207);">save-tab</span> : click to save the address of the current tab as a link. <br>
+        <span style="color: rgb(238, 46, 94);">delete-all</span> : double-click to delete all saved links. <br>
+        <span style="color: rgb(46, 221, 207);">help</span> : shows the content you're seeing right now :)   
+    </p>
+    <ul id="saved-links"></ul>
+
+    <script src="0.js"></script>
+</body>
+
+</html>
